@@ -32,14 +32,12 @@ main:
 ```
 
 For some reason I just COULD NOT get the given wave form file. I've included the default wave form with
-the radix changed for readability and annotated to show a working program. Note that I misread the assignment
-and initialized $s1 with -31 instead of -37. The waveform shows a code that is correct for data. I also ammended
-the sw instuction. I needed to add 84 to get x54 as my address in memory. The waveform has not been updated. 
+the radix changed for readability and annotated to show a working program.
 
 ![alt text](task2.JPG "Stupid wave files")
 
-As annotated on the waveform, the ALU out first held 44, then -31, and finally the result of 44+(-31) which is 13. 
-Then the ALU out bus held the memory location 36 (CFD) and writedata held 13 which is exactly what we wanted.
+As annotated on the waveform, the ALU out first held 44, then -37, and finally the result of 44+(-37) which is 7. 
+Then the ALU out bus held the memory location 54 and writedata held 7 which is exactly what we wanted.
 
 ##Task 3
 
