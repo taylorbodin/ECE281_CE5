@@ -77,7 +77,7 @@ end;
 ```
 
 ###ALU Modification
-1. I added the fourth case "11" to alup which primes the ALU for the logical or operations
+1. I added the fourth case "11" to aluop which primes the ALU for the logical or operations
 ```
 architecture behave of aludec is
 begin
@@ -132,8 +132,12 @@ Below is the code:
 ![alt text](registers_task3.JPG "Task 3")
 
 Mips performed the calculations correctly
+
 $s0 = 44+0 = 44 = x0000002c
+
 $s1 = -37+0 = -37 = xFFFFFFDB
+
 $s2 = 44+(-37) = $s0+$s1 = 7 = x00000007
+
 $s3 = x8000 or x7 = x8000 or $s2 = x00008007
 
